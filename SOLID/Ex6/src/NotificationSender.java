@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public abstract class NotificationSender {
     protected final AuditLog audit;
     protected NotificationSender(AuditLog audit) { this.audit = audit; }

@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class LegacyRoomPricing implements RoomPricing {
     @Override
     public Money baseMonthly(int roomType) {

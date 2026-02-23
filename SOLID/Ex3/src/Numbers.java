@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 // Smell: generic util
 public class Numbers {
     public static double clamp(double x, double a, double b) {

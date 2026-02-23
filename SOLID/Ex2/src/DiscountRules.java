@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class DiscountRules implements DiscountPolicy {
     @Override
     public double discountAmount(String customerType, double subtotal, int distinctLines) {

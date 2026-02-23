@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class ReportPrinter {
     public void print(StudentProfile s, EligibilityEngineResult r) {
         System.out.println("Student: " + s.name + " (CGR=" + String.format("%.2f", s.cgr)

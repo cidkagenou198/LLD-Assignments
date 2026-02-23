@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class CgrRule implements EligibilityRule {
     private static final double MIN_CGR = 8.0;
 

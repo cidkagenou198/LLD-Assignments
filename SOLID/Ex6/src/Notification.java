@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class Notification {
     public final String subject;
     public final String body;

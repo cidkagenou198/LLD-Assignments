@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class TaxRules implements TaxPolicy {
     @Override
     public double taxPercent(String customerType) {

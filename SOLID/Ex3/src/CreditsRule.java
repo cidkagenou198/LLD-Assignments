@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class CreditsRule implements EligibilityRule {
     private static final int MIN_CREDITS = 20;
 

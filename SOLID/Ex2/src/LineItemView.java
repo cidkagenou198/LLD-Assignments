@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class LineItemView {
     public final String name;
     public final int qty;

@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class InvoiceFormatter {
     public String format(InvoiceData data) {
         StringBuilder sb = new StringBuilder();

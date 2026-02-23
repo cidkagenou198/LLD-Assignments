@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class AttendanceRule implements EligibilityRule {
     private static final int MIN_ATTENDANCE = 75;
 

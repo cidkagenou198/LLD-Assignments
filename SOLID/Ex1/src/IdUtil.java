@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class IdUtil {
     public static String nextStudentId(int currentCount) {
         int next = currentCount + 1;

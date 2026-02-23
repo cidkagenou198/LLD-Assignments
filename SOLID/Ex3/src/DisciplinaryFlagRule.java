@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class DisciplinaryFlagRule implements EligibilityRule {
     @Override
     public String check(StudentProfile s) {

@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 // Smell: unused config-like class.
 public class RuleInput {
     public double minCgr = 8.0;

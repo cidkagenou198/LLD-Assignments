@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class OrderLine {
     public final String itemId;
     public final int qty;

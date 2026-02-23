@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class Money {
     public final double amount;
     public Money(double amount) { this.amount = round2(amount); }

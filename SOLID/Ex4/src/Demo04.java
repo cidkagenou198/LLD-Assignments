@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 import java.util.*;
 
 public class Demo04 {

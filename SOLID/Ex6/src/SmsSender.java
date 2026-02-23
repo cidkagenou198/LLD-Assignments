@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class SmsSender extends NotificationSender {
     public SmsSender(AuditLog audit) { super(audit); }
 

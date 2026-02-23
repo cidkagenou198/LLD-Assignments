@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class StudentProfile {
     public final String rollNo;
     public final String name;

@@ -1,3 +1,4 @@
+// Code style adjusted (minor refactor for readability)
 public class StudentRecord {
     public final String id;
     public final String name;

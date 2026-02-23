@@ -1,13 +1,14 @@
+// Code style adjusted (minor refactor for readability)
 import java.util.*;
 
 public class OnboardingService {
-    private final StudentRepository repo;
+    private final StudentRepository repository;
     private final StudentInputParser parser;
     private final StudentValidator validator;
     private final RegistrationPrinter printer;
 
-    public OnboardingService(StudentRepository repo) {
-        this.repo = repo;
+    public OnboardingService(StudentRepository repository) {
+        this.repository = repository;
         this.parser = new StudentInputParser();
         this.validator = new StudentValidator();
         this.printer = new RegistrationPrinter();
@@ -26,9 +27,9 @@ public class OnboardingService {
         String phone = kv.getOrDefault("phone", "");
         String program = kv.getOrDefault("program", "");
 
-        String id = IdUtil.nextStudentId(repo.count());
+        String id = IdUtil.nextStudentId(repository.count());
         StudentRecord rec = new StudentRecord(id, name, email, phone, program);
-        repo.save(rec);
-        printer.printSuccess(id, repo.count(), rec);
+        repository.save(rec);
+        printer.printSuccess(id, repository.count(), rec);
     }
 }
